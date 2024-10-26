@@ -31,7 +31,7 @@ const Three = () => {
         <div className='card cardFont mx-5 px-2 py-2 text-center'>
           <h3 className='fw-bold pt-3 fs-4'>Salon Coyote</h3>
           <p className='mb-2'><GeoAltFill/> Av. M. T. Alvear - Delfín Gallo</p>
-          <p className='fw-bold mb-1'>15 · Noviembre · 2024</p>
+          <p className='fw-bold mb-1'>16 · Noviembre · 2024</p>
           <p className='fw-bold mb-1'>22:00hrs</p>
           <p className='fw-bold mb-2'>¡Sé puntual!</p>
           <Button href='https://maps.app.goo.gl/22Ygrp85hBdgkP2j8' className='mb-3 mx-auto cardButton fw-bold'>
