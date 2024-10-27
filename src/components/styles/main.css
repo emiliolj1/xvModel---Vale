@@ -9,12 +9,13 @@
   --viridian: #468871ff;
   --ecru-2: #cebc88ff;
   --dun: #d7cdb2ff;
-  --titulos: "Great Vibes", cursive;
-  --secFont: "Cinzel", serif;
-}
-
-.bgFooter{
-  background-color: #1A1A1A;
+  --mauve: rgb(255, 194, 255);
+  --mauve-2: rgb(227, 194, 255);
+  --mauve-3: rgb(200, 182, 255);
+  --lavender-web: rgb(235, 237, 255);
+  --lavender-web-2: rgb(214, 227, 255);
+  --titulos: "Dancing Script", cursive;
+  --secFont: "Playfair Display", serif;
 }
 
 .sectionM{
@@ -23,23 +24,17 @@
   padding: 0;
 }
 
-.titulo{
-  font-family: var(--titulos);
-  font-weight: 800;
-  font-style: italic;
-}
+/*! Secciones */
 
-.cardFont{
-  font-family: var(--secFont);
-  font-optical-sizing: auto;
-  font-weight: 400;
+.bgFooter{
+  background-color: #1A1A1A;
 }
 
 .faceInv{
-  background-image: url(../resources/first.jpg);
+  background-image: url(../resources/first.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: rgb(0, 0, 0, 0.7);
   background-blend-mode: multiply;
 }
 
@@ -47,7 +42,7 @@
   background-image: url(../resources/two.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.295);
+  background-color: rgba(0, 0, 0, 0.45);
   background-blend-mode: multiply;
 }
 
@@ -72,14 +67,19 @@
   background-color: var(--ecru-2);
 }
 
-
 .sixInv{
-  background-image: url(../resources/end.jpg);
+  background-image: url(../resources/end.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(70, 136, 113, 0.45);
+  background-color: var(--mauve-3);
   background-blend-mode: multiply;
 }
+
+.asisBack{
+  background-color: #d7e9f1;
+}
+
+/*! Fuentes y textos */
 
 .title{
   text-align: center;
@@ -115,45 +115,17 @@
   margin: 1px;
 }
 
-.card {
-  background: var(--ash-gray);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+.titulo{
+  font-family: var(--titulos);
+  font-weight: 800;
+  font-style: italic;
 }
 
-.cardButton{
-  background-color: var(--viridian);
-  border: 1px solid var(--dark-slate-gray);
-  color: var(--antiflash-white);
+.cardFont{
+  font-family: var(--secFont);
+  font-optical-sizing: auto;
+  font-weight: 400;
 }
-
-.cardButton:hover{
-  background-color: var(--antiflash-white);
-  border: 1px solid var(--dark-slate-gray);
-  color: var(--viridian);
-}
-
-.cardButton:active{
-  background-color: var(--antiflash-white);
-  border: 1px solid var(--dark-slate-gray);
-  color: var(--viridian);
-}
-
-.asisButton{
-  background-color: var(--antiflash-white);
-  border: 1px solid var(--timberwolf);
-  color: var(--dark-slate-gray);
-}
-.asisButton:hover{
-  background-color: var(--dark-slate-gray);
-  border: 1px solid var(--viridian);
-  color: var(--antiflash-white);
-}
-.asisButton:active{
-  background-color: var(--dark-slate-gray);
-  border: 1px solid var(--viridian);
-  color: var(--antiflash-white);
-}
-
 
 .asistenciaFont{
   font-family: var(--secFont);
@@ -175,6 +147,56 @@
   margin: 1px;
 }
 
+.footerFont{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*! Componentes */
+
+.card {
+  background: var(--ash-gray);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+  /** Botones */
+  .cardButton{
+    background-color: var(--viridian);
+    border: 1px solid var(--dark-slate-gray);
+    color: var(--antiflash-white);
+  }
+
+  .cardButton:hover{
+    background-color: var(--antiflash-white);
+    border: 1px solid var(--dark-slate-gray);
+    color: var(--viridian);
+  }
+
+  .cardButton:active{
+    background-color: var(--antiflash-white);
+    border: 1px solid var(--dark-slate-gray);
+    color: var(--viridian);
+  }
+
+  .asisButton{
+    background-color: var(--antiflash-white);
+    border: 1px solid var(--timberwolf);
+    color: var(--dark-slate-gray);
+  }
+  .asisButton:hover{
+    background-color: var(--dark-slate-gray);
+    border: 1px solid var(--viridian);
+    color: var(--antiflash-white);
+  }
+  .asisButton:active{
+    background-color: var(--dark-slate-gray);
+    border: 1px solid var(--viridian);
+    color: var(--antiflash-white);
+  }
+  /**/
+  
 .carrousel{
   height: 70vh;
   object-fit: cover;
@@ -197,13 +219,5 @@
   z-index: 1000;
 }
 
-.asisBack{
-  background-color: #d7e9f1;
-}
 
-.footerFont{
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
+

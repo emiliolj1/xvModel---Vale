@@ -8,7 +8,7 @@ const Three = () => {
   return (
     <>
       <Container fluid className='threeInv pb-4'>
-        <div className='pt-4 pb-3 titulo text-center'>
+        {/* <div className='pt-4 pb-3 titulo text-center'>
           <h3 className='fw-bold' style={{fontSize:'2.4rem', fontStyle: 'normal'}} translate="no">¡Misa!</h3>
         </div>
         <div className='card cardFont mx-5 px-3 py-3 text-center'>
@@ -24,17 +24,21 @@ const Three = () => {
           <Button href='https://maps.app.goo.gl/9KzMrta4uDznnu4f8' className='mb-3 mx-auto cardButton fw-bold'>
             Ver mapa!
           </Button>
-        </div>
+        </div> */}
         <div className='pt-4 pb-2 titulo text-center'>
           <h3 className='fw-bold' style={{fontSize:'2.4rem', fontStyle: 'normal'}}>¡Fiesta!</h3>
         </div>
         <div className='card cardFont mx-5 px-2 py-2 text-center'>
-          <h3 className='fw-bold pt-3 fs-4'>Salon Coyote</h3>
-          <p className='mb-2'><GeoAltFill/> Av. M. T. Alvear - Delfín Gallo</p>
+          {/* <Image
+            className='rounded-4 p-3'
+            src='https://i.imgur.com/q26FauV.jpeg'
+          /> */}
+          <h3 className='fw-bold pt-3 fs-2'>Salon Grinch</h3>
+          <p className='mb-2'><GeoAltFill/> Barrio El Bosque - Delfín Gallo</p>
           <p className='fw-bold mb-1'>16 · Noviembre · 2024</p>
           <p className='fw-bold mb-1'>22:00hrs</p>
           <p className='fw-bold mb-2'>¡Sé puntual!</p>
-          <Button href='https://maps.app.goo.gl/22Ygrp85hBdgkP2j8' className='mb-3 mx-auto cardButton fw-bold'>
+          <Button href='https://maps.app.goo.gl/5G2Q27p68cq8jrsL8' className='mb-3 mx-auto cardButton fw-bold'>
             Ver mapa!
           </Button>
         </div>
@@ -49,7 +53,7 @@ const Three = () => {
             width='350rem'
           />
           <h3 className='pt-1 cardFont fw-semibold' style={{fontSize:'1.3rem', fontStyle: 'normal'}}>Elegante Sport</h3>
-          <h3 className='pt-2 titulo fw-bold' style={{fontSize:'2rem', fontStyle: 'normal'}}>¡Evita ir de color verde!</h3>
+          <h3 className='pt-2 titulo fw-bold' style={{fontSize:'2rem', fontStyle: 'normal'}}>¡Evita ir de color Lila o similares!</h3>
         </div>
       </Container>
     </>
