@@ -43,7 +43,7 @@ const Three = () => {
           </Button>
         </div>
       </Container>
-      <Container className='threeTwoInv pb-2'>
+      <Container className='threeTwoInv pb-2 mb-4'>
         <div className='pt-4 titulo text-center'>
           <h3 className='fw-bold' style={{fontSize:'2.5rem', fontStyle: 'normal'}}>Dress Code</h3>
         </div>

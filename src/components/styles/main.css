@@ -10,6 +10,7 @@
   --ecru-2: #cebc88ff;
   --dun: #d7cdb2ff;
   --mauve: rgb(255, 194, 255);
+  --mauve-card: rgb(255, 194, 255, 0.2);
   --mauve-2: rgb(227, 194, 255);
   --mauve-3: rgb(200, 182, 255);
   --lavender-web: rgb(235, 237, 255);
@@ -50,7 +51,7 @@
   /* background-image: url(../resources/fondoMariposas.png); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--seasalt);
+  background-color: var(--lavender-web);
 }
 
 .threeTwoInv{
@@ -60,11 +61,11 @@
 }
 
 .fiveInv{
-  background-color: var(--timberwolf);
+  background-color: var(--lavender-web);
 }
 
 .fourInv{
-  background-color: var(--ecru-2);
+  background-color: var(--lavender-web-2);
 }
 
 .sixInv{
@@ -108,7 +109,7 @@
   font-weight: 500;
   font-family: var(--secFont);
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .frase>p{
@@ -157,43 +158,43 @@
 /*! Componentes */
 
 .card {
-  background: var(--ash-gray);
+  background: var(--mauve-card);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
   /** Botones */
   .cardButton{
-    background-color: var(--viridian);
-    border: 1px solid var(--dark-slate-gray);
-    color: var(--antiflash-white);
+    background-color: var(--mauve-3);
+    border: 1px solid var(--mauve-2);
+    color: var(--lavender-web);
   }
 
   .cardButton:hover{
-    background-color: var(--antiflash-white);
-    border: 1px solid var(--dark-slate-gray);
-    color: var(--viridian);
+    background-color: var(--lavender-web);
+    border: 1px solid var(--mauve-2);
+    color: var(--mauve-3);
   }
 
   .cardButton:active{
-    background-color: var(--antiflash-white);
-    border: 1px solid var(--dark-slate-gray);
-    color: var(--viridian);
+    background-color: var(--lavender-web);
+    border: 1px solid var(--mauve-2);
+    color: var(--mauve-3);
   }
 
   .asisButton{
-    background-color: var(--antiflash-white);
-    border: 1px solid var(--timberwolf);
-    color: var(--dark-slate-gray);
+    background-color: var(--lavender-web);
+    border: 1px solid var(--mauve-2);
+    color: var(--mauve-3);
   }
   .asisButton:hover{
-    background-color: var(--dark-slate-gray);
-    border: 1px solid var(--viridian);
-    color: var(--antiflash-white);
+    background-color: var(--mauve-3);
+    border: 1px solid var(--mauve-2);
+    color: var(--lavender-web);
   }
   .asisButton:active{
-    background-color: var(--dark-slate-gray);
-    border: 1px solid var(--viridian);
-    color: var(--antiflash-white);
+    background-color: var(--mauve-3);
+    border: 1px solid var(--mauve-2);
+    color: var(--lavender-web);
   }
   /**/
   

@@ -14,7 +14,22 @@ function Carrousel() {
     <Container fluid >
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <Image className='carrousel' src=' '/>
+          <Image className='carrousel' src='https://i.imgur.com/qYnVbiZ.jpeg'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image className='carrousel' src='https://i.imgur.com/97Wwhkm.jpeg'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image className='carrousel' src='https://i.imgur.com/KT4UVeF.png'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image className='carrousel' src='https://i.imgur.com/abAdWqz.jpeg'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image className='carrousel' src='https://i.imgur.com/CzWBhRt.jpeg'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image className='carrousel' src='https://i.imgur.com/vpkBHkt.jpeg'/>
         </Carousel.Item>
       </Carousel>
     </Container>
